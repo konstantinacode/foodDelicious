@@ -1,0 +1,110 @@
+.contactPage {
+    width: 70%;
+    border-radius: 15px;
+    margin: 10% auto;
+    background: silver;
+    padding: 2%;
+    font-size: 1.2rem;
+
+}
+
+.secondary-content {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 2% auto;
+    padding: 1%;
+
+    h4,
+    address,
+    h5,
+    p {
+        padding: 1%;
+        text-align: center;
+    }
+
+    .frame {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+#contactHeader {
+    color: black;
+}
+
+.socialMedia {
+    /*padding-left: 50px;
+      padding-right: 50px;*/
+    /*margin: auto;*/
+    padding: 1%;
+    margin-bottom: 8%;
+    text-align: center;
+    border-bottom: 2px solid #dfe2e6;
+    background-color: #efefef;
+    width: 70%;
+    border-radius: 15px;
+    margin: 10% auto;
+
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.socialMedia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socialMedia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socialMedia ul li {
+    display: inline-block;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: 0.5;
+    transition: all 0.25s;
+}
+
+a.twitter {
+    background-image: url(../photos/twitter.svg);
+}
+
+a.linkedin {
+    background-image: url(../photos/linkedin.svg);
+}
+
+a.mail {
+    background-image: url(../photos/mail.svg);
+}
+
+a.instagram {
+    background-image: url(../photos/inst.svg);
+}
+
+a.facebook {
+    background-image: url(../photos/facebook.png);
+}
+
+a.social:hover {
+    opacity: 1;
+}
+
+#phone-icon {
+    margin-left: 5px;
+    margin-bottom: 0;
+}

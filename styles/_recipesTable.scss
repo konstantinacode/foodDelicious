@@ -1,0 +1,55 @@
+.recipe {
+    width: 80vw;
+    height: 30vh;
+    margin: 3% auto;
+    border: 1px solid silver;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: silver;
+}
+
+#recipesTable .photo {
+    flex: 1;
+
+    img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border-radius: 15px;
+    }
+}
+
+.title {
+    width: 80%;
+    align-items: center;
+    flex: 2;
+
+    h2 {
+        margin: 5%;
+        color: silver;
+        text-align: left;
+    }
+
+    p {
+        margin: 5%;
+        padding: 0;
+    }
+}
+
+#recipesTable {
+    a {
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .title {
+        flex: 2;
+    }
+
+    .recipe {
+        width: 90vw;
+        height: 20vh;
+    }
+}
