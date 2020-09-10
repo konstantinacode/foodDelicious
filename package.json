@@ -1,0 +1,23 @@
+{
+  "name": "FoodDelicious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstantinacode/foodDelicious.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konstantinacode/foodDelicious/issues"
+  },
+  "homepage": "https://github.com/konstantinacode/foodDelicious",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
